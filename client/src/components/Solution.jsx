@@ -29,7 +29,7 @@ export default function Solution() {
       <div className="container">
         <h2 className="section__title">The Solution</h2>
         <p className="section__lead">
-          Gbénu is an AI-powered digital literacy platform — not just a course
+          Gbénu is an AI-powered digital literacy platform not just a course
           library. Where a single teacher can't mentor thousands of learners
           individually, Gbénu's AI adapts content to each learner, detects
           difficulties, answers in real time, and guides progressive mastery of

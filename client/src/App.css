@@ -351,8 +351,8 @@ button:focus-visible {
 }
 .stat-bento__highlight {
     grid-row: span 2;
-    background: var(--color-primary);
-    color: #fff;
+    background: #fbeae5;
+    color: var(--color-text);
     border-radius: var(--radius);
     padding: 28px;
     display: flex;
@@ -361,15 +361,15 @@ button:focus-visible {
     box-shadow: var(--shadow);
 }
 .stat-bento__highlight .stat-card__value {
-    color: var(--color-accent);
+    color: var(--color-accent-dark);
     font-size: 2.4rem;
 }
 .stat-bento__highlight .stat-card__label {
-    color: rgba(255, 255, 255, 0.9);
+    color: var(--color-text);
     font-size: 0.9rem;
 }
 .stat-bento__highlight .stat-card__source {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--color-text-muted);
 }
 .stat-card {
     background: var(--color-surface);
@@ -425,11 +425,11 @@ button:focus-visible {
     font-size: 0.84rem;
 }
 .growth-card--highlight {
-    background: var(--color-primary);
-    color: #fff;
+    background: #fbeae5;
+    color: var(--color-text);
 }
 .growth-card--highlight h4 {
-    color: var(--color-accent);
+    color: var(--color-accent-dark);
 }
 @media (max-width: 720px) {
     .growth-bento {
@@ -459,7 +459,7 @@ button:focus-visible {
     font-size: 0.88rem;
 }
 .table thead th {
-    background: var(--color-primary);
+    background: var(--color-accent-dark); /* #c96a15 */
     color: #fff;
     font-weight: 700;
 }
@@ -540,28 +540,21 @@ button:focus-visible {
 }
 .feature-tile--wide {
     grid-column: span 2;
-    background: var(--color-primary);
-    color: #fff;
+    background: #fbeae5;
+    color: var(--color-text);
 }
 .feature-tile--wide .feature-tile__text {
-    color: rgba(255, 255, 255, 0.75);
-}
-.feature-tile--accent {
-    background: var(--color-accent-soft);
+    color: var(--color-text-muted);
 }
 .feature-tile__icon {
-    color: var(--color-primary);
+    color: #fff;
     width: 32px;
     height: 32px;
     border-radius: 9px;
-    background: rgba(29, 78, 137, 0.08);
+    background: var(--color-accent);
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.feature-tile--wide .feature-tile__icon {
-    color: var(--color-accent);
-    background: rgba(255, 255, 255, 0.15);
 }
 .feature-tile__title {
     font-weight: 700;
@@ -630,8 +623,8 @@ button:focus-visible {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: var(--color-primary);
-    color: var(--color-accent);
+    background: var(--color-accent);
+    color: #fff;
     margin-bottom: 12px;
 }
 .step__number {
@@ -677,7 +670,10 @@ button:focus-visible {
     width: 100%;
     height: auto;
     aspect-ratio: 4 / 3;
-    object-fit: cover;
+    object-fit: contain;
+    object-position: center;
+    background: var(--color-bg-alt);
+
     border-radius: var(--radius);
     box-shadow: var(--shadow);
     display: block;
@@ -691,7 +687,9 @@ button:focus-visible {
     width: 100%;
     height: auto;
     aspect-ratio: 16 / 10;
-    object-fit: cover;
+    object-fit: contain;
+    object-position: center;
+    background: var(--color-bg-alt);
     border-radius: var(--radius);
     box-shadow: var(--shadow-sm);
     display: block;
@@ -794,8 +792,8 @@ button:focus-visible {
     width: 36px;
     height: 36px;
     border-radius: 9px;
-    background: var(--color-accent-soft);
-    color: var(--color-primary);
+    background: var(--color-accent);
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -860,6 +858,9 @@ button:focus-visible {
 .team-card:nth-child(3) .team-card__avatar {
     background: var(--color-clay);
 }
+.team-card:nth-child(4) .team-card__avatar {
+    background: #000;
+}
 .team-card__body {
     min-width: 0;
 }
@@ -883,6 +884,7 @@ button:focus-visible {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    text-align: start;
 }
 .team-card__skills {
     display: flex;
@@ -904,8 +906,7 @@ button:focus-visible {
 
 /* ---------- CTA ---------- */
 .cta {
-    background: var(--color-primary);
-    color: #fff;
+    background: #fbeae5;
     padding: 0 0 64px;
     text-align: center;
 }
@@ -915,11 +916,10 @@ button:focus-visible {
     padding-top: 56px;
 }
 .cta h2 {
-    color: #fff;
     font-size: clamp(1.35rem, 2.4vw, 1.8rem);
+    color: var(--color-text);
 }
 .cta p {
-    color: rgba(255, 255, 255, 0.75);
     font-size: 0.94rem;
 }
 .cta__actions {
@@ -952,8 +952,8 @@ button:focus-visible {
     width: 40px;
     height: 40px;
     border-radius: 10px;
-    background: var(--color-accent-soft);
-    color: var(--color-primary);
+    background: var(--color-accent);
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -988,6 +988,7 @@ button:focus-visible {
 /* ---------- Footer ---------- */
 .footer {
     padding: 0 0 28px;
+    background: #fbeae5;
 }
 .footer__inner {
     display: flex;
@@ -997,4 +998,10 @@ button:focus-visible {
     font-size: 0.82rem;
     color: var(--color-text-muted);
     padding-top: 24px;
+}
+
+.header__logo-img {
+    height: 36px;
+    width: auto;
+    display: block;
 }

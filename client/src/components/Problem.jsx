@@ -8,7 +8,7 @@ export default function Problem() {
         <h2 className="section__title">The Problem</h2>
         <p className="section__lead">
           Millions of children, youth, and adults across Sub-Saharan Africa
-          finish school — or never had the chance to — without basic digital
+          finish school or never had the chance to without basic digital
           literacy. Even with a smartphone in hand, most can't write a
           professional email, build a CV, spot a phishing attempt, or use AI
           with a critical mind.
@@ -31,7 +31,7 @@ export default function Problem() {
 
         <p className="section__note">
           NGOs, foundations, and governments (UNICEF, UNESCO, MIT, Room to Read,
-          Orange, MasterCard Foundation) are already moving — but institutional
+          Orange, MasterCard Foundation) are already moving but institutional
           rollout is slow. Learners outside those programs, out-of-system
           adults, and parents who don't want to wait are left behind. That's the
           gap Gbénu fills.

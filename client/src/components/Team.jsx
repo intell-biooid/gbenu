@@ -21,14 +21,6 @@ export default function Team() {
                 <div className="team-card__body">
                   <h3>{member.name}</h3>
                   <span className="team-card__role">{member.role}</span>
-                  <p>{member.bio}</p>
-                  {/* <div className="team-card__skills">
-                    {member.skills.slice(0, 4).map((s) => (
-                      <span key={s} className="tag">
-                        {s}
-                      </span>
-                    ))}
-                  </div>*/}
                 </div>
               </div>
             );

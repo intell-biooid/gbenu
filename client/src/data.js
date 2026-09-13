@@ -2,9 +2,9 @@ export const IMAGES = {
   hero: "https://res.cloudinary.com/jit57goy/image/upload/v1789316073/gnu-removebg-preview.png",
   solution: "https://picsum.photos/seed/solution-illustration/900/700",
   demo: [
-    "https://picsum.photos/seed/demo-1/800/600",
-    "https://picsum.photos/seed/demo-2/800/600",
-    "https://picsum.photos/seed/demo-3/800/600",
+    "https://res.cloudinary.com/jit57goy/image/upload/v1789335904/WhatsApp_Image_2026-09-13_at_11.28.27_PM.jpg",
+    "https://res.cloudinary.com/jit57goy/image/upload/v1789335904/WhatsApp_Image_2026-09-13_at_11.28.26_PM_1.jpg",
+    "https://res.cloudinary.com/jit57goy/image/upload/v1789335904/WhatsApp_Image_2026-09-13_at_11.28.26_PM.jpg",
   ],
   team: {
     thierry: "https://picsum.photos/seed/team-thierry/400/400",
@@ -16,10 +16,10 @@ export const IMAGES = {
 export const SITE = {
   name: "Gbénu",
   tagline: "Digital knowledge is you",
-  demoUrl: "https://your-prototype-url.example.com", // TODO
+  demoUrl: "https://gbenuproject.netlify.app/", // TODO
   email: "contact@gbenu.africa", // TODO
   linkedin: "https://linkedin.com/company/gbenu", // TODO
-  location: "Kigali, Rwanda",
+  location: "Cotonou, Benin",
 };
 
 export const NAV_LINKS = [
@@ -53,11 +53,8 @@ export const PROBLEM_STATS = [
 ];
 
 export const TARGET_SEGMENTS = [
-  { label: "Age", value: "7 – 50 years old" },
-  {
-    label: "Location",
-    value: "Rwanda, Benin & Burkina Faso, then Sub-Saharan Africa",
-  },
+  { label: "Age", value: "7 to 50 years old" },
+
   {
     label: "Education level",
     value: "High school students, university students, young graduates",
@@ -77,7 +74,7 @@ export const TARGET_SEGMENTS = [
 export const FEATURES = [
   {
     icon: "languages",
-    title: "8 Languages",
+    title: "8+ Languages",
     text: "French, English + 6 African languages, AI-translated content.",
   },
   {
@@ -127,7 +124,7 @@ export const HOW_IT_WORKS = [
     step: "01",
     icon: "smartphone",
     title: "Access",
-    text: "Learner signs up from a phone, tablet, or computer — partial offline mode available.",
+    text: "Learner signs up from a phone, tablet, or computer partial offline mode available.",
   },
   {
     step: "02",
@@ -151,29 +148,29 @@ export const HOW_IT_WORKS = [
 
 export const CURRICULUM = [
   {
-    level: "CI / CP (Grade 1–2)",
+    level: "CI / CP (Grade 1 to 2)",
     content: "Screen discovery, mouse/touch controls, digital shapes & colors.",
   },
   {
-    level: "CE1 / CE2 (Grade 3–4)",
+    level: "CE1 / CE2 (Grade 3 to 4)",
     content:
       "Keyboard usage, first texts, supervised internet, basic security.",
   },
   {
-    level: "CM1 / CM2 (Grade 5–6)",
+    level: "CM1 / CM2 (Grade 5 to 6)",
     content: "File & folder management, writing emails, responsible searching.",
   },
   {
-    level: "6ème / 5ème (Grade 7–8)",
+    level: "6ème / 5ème (Grade 7 to 8)",
     content: "Introduction to Word, Excel, responsible social media usage.",
   },
   {
-    level: "4ème / 3ème (Grade 9–10)",
+    level: "4ème / 3ème (Grade 9 to 10)",
     content:
       "Introduction to cybersecurity, professional communication, intro to AI.",
   },
   {
-    level: "2nde / 1ère (Grade 11–12)",
+    level: "2nde / 1ère (Grade 11 to 12)",
     content:
       "Content creation, collaborative tools, digital critical thinking.",
   },
@@ -183,7 +180,7 @@ export const CURRICULUM = [
       "Digital entrepreneurship, freelancing, complete digital projects.",
   },
   {
-    level: "Gbénu Levels 1–5",
+    level: "Gbénu Levels 1 to 5",
     content:
       "All ages, from scratch: Beginner → Initiated → Intermediate → Advanced → Expert.",
   },
@@ -244,7 +241,7 @@ export const SWOT = {
   ],
   opportunities: [
     "$109M digital budget in Burkina Faso for 2026",
-    "Benin UNICEF deployment 2025–2030",
+    "Benin UNICEF deployment 2025 to 2030",
     "Continuous smartphone expansion across Africa",
     "Rwanda as a pioneer in UNICEF digital initiatives",
     "STIC'26 as an accelerator in Burkina Faso",
@@ -265,14 +262,14 @@ export const MARKET = {
     detail: "Young people across Africa",
   },
   sam: {
-    value: "400–500M",
+    value: "400 to 500M",
     label: "Serviceable Available Market",
     detail: "Africans with mobile internet + a smartphone (GSMA)",
   },
   som: {
-    value: "20–50M",
+    value: "20 to 50M",
     label: "Serviceable Obtainable Market",
-    detail: "Ages 7–35, Francophone & East Africa, Phase 1",
+    detail: "Ages 7 to 35, Francophone & East Africa, Phase 1",
   },
   countries: [
     {
@@ -363,18 +360,18 @@ export const PARTNERS = {
     },
     {
       name: "UNICEF",
-      role: "2025–2030 global digital education strategy, active in Benin",
+      role: "2025 to 2030 global digital education strategy, active in Benin",
       status: "Potential",
     },
   ],
   financial: [
     {
       name: "UNICEF",
-      role: "Priority stakeholder — invests in educational digital transformation",
+      role: "Priority stakeholder invests in educational digital transformation",
     },
     {
       name: "Orange Foundation (Education+)",
-      role: "Co-financing — has supported 1,400+ schools, 600,000+ students",
+      role: "Co-financing has supported 1,400+ schools, 600,000+ students",
     },
     { name: "Smart Africa", role: "Digital transformation program funding" },
     {
@@ -415,6 +412,18 @@ export const TEAM = [
   {
     name: "BOBDA FONE Paulienne",
     role: "Finance & Administration Lead",
+    photo: IMAGES.team.paulienne,
+    bio: "Entrepreneurship & Leadership student at ALU Kigali. Project management experience at DreamDo focused on financial planning and partnership development.",
+    skills: [
+      "Administrative management",
+      "Budget planning",
+      "Partnership development",
+      "Business development",
+    ],
+  },
+  {
+    name: "Hwapyong Maniragaba Edouard",
+    role: "Software Engineer ",
     photo: IMAGES.team.paulienne,
     bio: "Entrepreneurship & Leadership student at ALU Kigali. Project management experience at DreamDo focused on financial planning and partnership development.",
     skills: [

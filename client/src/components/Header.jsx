@@ -17,9 +17,18 @@ export default function Header() {
   return (
     <header className="header">
       <div className="header__inner container">
-        <button className="header__logo" onClick={() => handleNavClick("home")}>
-          {SITE.name}
-        </button>
+        <div>
+          <button
+            className="header__logo"
+            onClick={() => handleNavClick("home")}
+          >
+            <img
+              src="https://res.cloudinary.com/jit57goy/image/upload/v1789331287/yem.jpg"
+              alt={SITE.name}
+              className="header__logo-img"
+            />
+          </button>
+        </div>
 
         <nav className={`header__nav ${open ? "is-open" : ""}`}>
           {NAV_LINKS.map((link) => (

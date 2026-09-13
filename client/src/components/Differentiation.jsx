@@ -1,4 +1,4 @@
-import { COMPETITORS, SWOT } from "../data";
+import { COMPETITORS } from "../data";
 
 const ICONS = {
   full: (
@@ -24,7 +24,7 @@ export default function Differentiation() {
       <div className="container">
         <h2 className="section__title">Why Gbénu Is Different</h2>
         <p className="section__lead">
-          Unlike international platforms built for already-connected,
+          Unlike international platforms built for already connected,
           already-literate users, Gbénu starts at true zero and guides learners
           to full digital mastery with content built for African realities.
         </p>
@@ -62,7 +62,7 @@ export default function Differentiation() {
           </table>
         </div>
 
-        <h3 className="section__subtitle">Where We Stand Today</h3>
+        {/* <h3 className="section__subtitle">Where We Stand Today</h3>
         <div className="swot-grid">
           <div className="swot-card swot-card--strength">
             <h4>Strengths</h4>
@@ -96,7 +96,7 @@ export default function Differentiation() {
               ))}
             </ul>
           </div>
-        </div>
+        </div>*/}
       </div>
     </section>
   );

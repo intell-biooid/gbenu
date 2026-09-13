@@ -1,5 +1,5 @@
 import { MapPin, Users, Globe, Sparkles } from "lucide-react";
-import { SITE, IMAGES } from "../data";
+import { IMAGES } from "../data";
 
 export default function Hero() {
   return (
@@ -7,27 +7,14 @@ export default function Hero() {
       <div className="container hero__inner">
         <div className="hero__copy">
           <h1 className="hero__title">
-            Digital platform for Benin and Burkina Faso learners.
+            Digital platform for African learners.
           </h1>
           <p className="hero__subtitle">
-            Gbénu gives learners of any age from complete beginners to
-            job-seekers personalized, AI-powered digital literacy training in 8
+            Gbénu gives learners of any age from complete beginners to job
+            seekers personalized, AI powered digital literacy training in over 8
             African languages, accessible offline from any phone, tablet, or
             computer.
           </p>
-          <div className="hero__actions">
-            <a
-              className="btn btn--primary"
-              href={SITE.demoUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Try the Prototype
-            </a>
-            <a className="btn btn--ghost" href="#demo">
-              Watch the Demo
-            </a>
-          </div>
         </div>
 
         <div className="hero__image">
@@ -55,7 +42,7 @@ export default function Hero() {
           <div className="hero-stats__item">
             <Globe size={20} strokeWidth={1.75} />
             <div>
-              <strong>8</strong>
+              <strong>8+</strong>
               <span>Languages</span>
             </div>
           </div>

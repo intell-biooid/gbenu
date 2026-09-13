@@ -7,7 +7,7 @@ export default function Demo() {
         <h2 className="section__title">See Gbénu in Action</h2>
         <p className="section__lead">
           The prototype is live. Explore the AI tutor, the adaptive quiz, and
-          the keyboard simulator directly — no slides needed.
+          the keyboard simulator directly no slides needed.
         </p>
 
         <div className="demo-gallery">

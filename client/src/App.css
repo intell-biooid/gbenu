@@ -707,10 +707,11 @@ button:focus-visible {
         flex-direction: row;
     }
     .demo-gallery__side img {
+        flex: 1;
+        min-width: 0;
         aspect-ratio: 1 / 1;
     }
 }
-
 /* ---------- SWOT bento ---------- */
 .swot-grid {
     display: grid;

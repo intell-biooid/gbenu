@@ -7,8 +7,8 @@ export default function TargetUsers() {
         <h2 className="section__title">Who Gbénu Serves</h2>
         <p className="section__lead">
           Gbénu's initial Serviceable Obtainable Market targets young people
-          aged 7–35 across Francophone and East Africa, starting in Rwanda,
-          Benin, and Burkina Faso.
+          aged 7–35 across Francophone and East Africa, starting in Benin and
+          Burkina Faso.
         </p>
         <div className="table-wrap">
           <table className="table">

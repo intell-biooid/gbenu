@@ -7,12 +7,12 @@ export default function Hero() {
       <div className="container hero__inner">
         <div className="hero__copy">
           <h1 className="hero__title">
-            Digital autonomy for every African learner, one AI tutor at a time.
+            Digital platform for Benin and Burkina Faso learners.
           </h1>
           <p className="hero__subtitle">
-            Gbénu gives learners of any age — from complete beginners to
-            job-seekers — personalized, AI-powered digital literacy training in
-            8 African languages, accessible offline from any phone, tablet, or
+            Gbénu gives learners of any age from complete beginners to
+            job-seekers personalized, AI-powered digital literacy training in 8
+            African languages, accessible offline from any phone, tablet, or
             computer.
           </p>
           <div className="hero__actions">

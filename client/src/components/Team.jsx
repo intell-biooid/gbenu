@@ -22,13 +22,13 @@ export default function Team() {
                   <h3>{member.name}</h3>
                   <span className="team-card__role">{member.role}</span>
                   <p>{member.bio}</p>
-                  <div className="team-card__skills">
+                  {/* <div className="team-card__skills">
                     {member.skills.slice(0, 4).map((s) => (
                       <span key={s} className="tag">
                         {s}
                       </span>
                     ))}
-                  </div>
+                  </div>*/}
                 </div>
               </div>
             );

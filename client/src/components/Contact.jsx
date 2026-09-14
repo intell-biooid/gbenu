@@ -1,4 +1,4 @@
-import { Mail, Link2, MapPin } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 import { SITE } from "../data";
 
 export default function Contact() {
@@ -21,7 +21,7 @@ export default function Contact() {
             </div>
           </a>
 
-          <a
+          {/* <a
             className="contact-card"
             href={SITE.linkedin}
             target="_blank"
@@ -34,7 +34,7 @@ export default function Contact() {
               <span className="contact-card__label">LinkedIn</span>
               <span className="contact-card__value">Gbénu</span>
             </div>
-          </a>
+          </a>*/}
           <div className="contact-card">
             <span className="contact-card__icon">
               <MapPin size={20} strokeWidth={1.75} />

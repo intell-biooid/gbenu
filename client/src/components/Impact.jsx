@@ -25,7 +25,7 @@ export default function Impact() {
         </div>
 
         <h3 className="section__subtitle">
-          Year 1 Addressable Students — 3 Countries
+          Year 1 Addressable Students 2 Countries
         </h3>
         <div className="table-wrap">
           <table className="table">

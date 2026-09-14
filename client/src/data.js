@@ -1,5 +1,5 @@
 export const IMAGES = {
-  hero: "https://res.cloudinary.com/jit57goy/image/upload/v1789316073/gnu-removebg-preview.png",
+  hero: "https://res.cloudinary.com/jit57goy/image/upload/v1789402254/real-removebg-preview.png",
   solution: "https://picsum.photos/seed/solution-illustration/900/700",
   demo: [
     "https://res.cloudinary.com/jit57goy/image/upload/v1789335904/WhatsApp_Image_2026-09-13_at_11.28.27_PM.jpg",
@@ -17,7 +17,7 @@ export const SITE = {
   name: "Gbénu",
   tagline: "Digital knowledge is you",
   demoUrl: "https://gbenuproject.netlify.app/", // TODO
-  email: "contact@gbenu.africa", // TODO
+  email: "gbenu.adminkigali@gmail.com", // TODO
   linkedin: "https://linkedin.com/company/gbenu", // TODO
   location: "Cotonou, Benin",
 };
@@ -273,12 +273,6 @@ export const MARKET = {
   },
   countries: [
     {
-      country: "Rwanda",
-      primary: "~2,500,000",
-      secondary: "~785,000",
-      independent: "~1,500,000",
-    },
-    {
       country: "Benin",
       primary: "~3,000,000",
       secondary: "~930,000",
@@ -296,21 +290,21 @@ export const MARKET = {
 export const GROWTH = [
   {
     year: "Year 1",
+    learners: "16,050",
+    schools: "6",
+    revenue: "50 550 000 FCFA",
+  },
+  {
+    year: "Year 2",
     learners: "21,450",
     schools: "12",
     revenue: "195,850,000 FCFA",
   },
   {
-    year: "Year 2",
+    year: "Year 3",
     learners: "43,437",
     schools: "25",
     revenue: "390,183,000 FCFA",
-  },
-  {
-    year: "Year 3",
-    learners: "69,500",
-    schools: "40",
-    revenue: "624,500,000 FCFA",
   },
 ];
 
@@ -323,21 +317,21 @@ export const PRICING = [
 export const FINANCIAL_SUMMARY = [
   {
     year: "Year 1",
-    revenue: "195,850,000",
-    expenses: "151,000,000",
-    profit: "40,850,000",
+    revenue: "50,000,000",
+    expenses: "25,000,000",
+    profit: "25,000,000",
   },
   {
     year: "Year 2",
-    revenue: "390,183,000",
-    expenses: "287,000,000",
-    profit: "103,183,000",
+    revenue: "195,850,000",
+    expenses: "151,000,000",
+    profit: "44,850,000",
   },
   {
     year: "Year 3",
-    revenue: "624,500,000",
-    expenses: "479,000,000",
-    profit: "145,500,000",
+    revenue: "390,183,000",
+    expenses: "287,000,000",
+    profit: "103,183,000",
   },
 ];
 

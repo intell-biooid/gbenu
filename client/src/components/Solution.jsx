@@ -9,7 +9,7 @@ import {
   Bot,
   Award,
 } from "lucide-react";
-import { FEATURES, CURRICULUM, IMAGES } from "../data";
+import { FEATURES, CURRICULUM } from "../data";
 
 const ICONS = {
   languages: Languages,
@@ -37,12 +37,12 @@ export default function Solution() {
         </p>
 
         <div className="bento">
-          <div className="bento__cell bento__cell--image">
+          {/* <div className="bento__cell bento__cell--image">
             <img
               src={IMAGES.solution}
               alt="A learner chatting with the Gbénu AI tutor"
             />
-          </div>
+          </div>*/}
           {FEATURES.map((f) => {
             const Icon = ICONS[f.icon];
             const wide = f.icon === "bot";

@@ -43,14 +43,6 @@ export default function Header() {
         </nav>
 
         <div className="header__actions">
-          <a
-            className="btn btn--primary btn--sm"
-            href={SITE.demoUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Try the Prototype
-          </a>
           <button
             className="header__burger"
             onClick={() => setOpen(!open)}

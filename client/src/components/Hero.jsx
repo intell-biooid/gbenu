@@ -28,7 +28,7 @@ export default function Hero() {
           <div className="hero-stats__item">
             <MapPin size={20} strokeWidth={1.75} />
             <div>
-              <strong>3</strong>
+              <strong>2</strong>
               <span>Pilot countries</span>
             </div>
           </div>

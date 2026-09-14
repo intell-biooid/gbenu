@@ -6,8 +6,8 @@ export default function BusinessModel() {
       <div className="container">
         <h2 className="section__title">Business Model</h2>
         <p className="section__lead">
-          Gbénu is a term-based subscription model priced for African
-          households, schools, and independent learners — paid via Mobile Money,
+          Gbénu is a term based subscription model priced for African
+          households, schools, and independent learners paid via Mobile Money,
           Orange Money, MTN MoMo, Airtel Money, Moov Money, or card.
         </p>
         <div className="table-wrap">
